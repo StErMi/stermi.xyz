@@ -15,7 +15,7 @@ const IndexPage = ({ post }: Props) => (
   <>
     <Head>
       <title>{post.title} StErMi.xyz Blog</title>
-      <meta name="description" content="StErMi.xyz" />
+      <meta name="description" content={post.excerpt} />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary" key="twcard" />
