@@ -16,6 +16,21 @@ const IndexPage = ({ post }: Props) => (
     <Head>
       <title>{post.title} StErMi.xyz Blog</title>
       <meta name="description" content="StErMi.xyz" />
+
+      {/* Twitter */}
+      <meta name="twitter:card" content="summary" key="twcard" />
+      <meta name="twitter:creator" content="@StErMi" key="twhandle" />
+
+      {/* Open Graph */}
+      <meta
+        property="og:url"
+        content={`https://stermi.xyz/blog/${post.slug}`}
+        key="ogurl"
+      />
+      <meta property="og:image" content={post.coverImage.url} key="ogimage" />
+      <meta property="og:site_name" content="StErMi.xyz" key="ogsitename" />
+      <meta property="og:title" content={post.title} key="ogtitle" />
+      <meta property="og:description" content={post.excerpt} key="ogdesc" />
     </Head>
     <Header />
     <main>
