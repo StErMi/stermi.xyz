@@ -5,7 +5,7 @@ excerpt: 'This is Part 2 of the "Let’s play OpenZeppelin Ethernaut CTF" seri
 The goal of this challenge is to claim ownership of the `Fallout` contract.
 '
 coverImage: 
-  url: '/assets/blog/ethernaut/fallback.svg'
+  url: '/assets/blog/ethernaut/fallout.svg'
   credit: 
     name: OpenZeppelin
     url: https://ethernaut.openzeppelin.com/

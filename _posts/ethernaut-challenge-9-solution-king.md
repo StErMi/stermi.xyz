@@ -2,7 +2,7 @@
 title: 'Ethernaut Challenge #9 Solution — King'
 excerpt: This is Part 9 of the "Let’s play OpenZeppelin Ethernaut CTF" series, where I will explain how to solve each challenge.</br></br>Our goal for this challenge is to **break** the smart contract to make it impossible for someone else to gain the kingship again in the future.
 coverImage:
-  url: '/assets/blog/ethernaut/fallback.svg'
+  url: '/assets/blog/ethernaut/king.svg'
   credit:
     name: OpenZeppelin
     url: https://ethernaut.openzeppelin.com/

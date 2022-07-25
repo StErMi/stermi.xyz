@@ -2,7 +2,7 @@
 title: 'Ethernaut Challenge #11 Solution — Elevator'
 excerpt: This is Part 11 of the "Let’s play OpenZeppelin Ethernaut CTF" series, where I will explain how to solve each challenge.</br></br>The goal of this challenge is to be able to reach the top floor of the building.
 coverImage:
-  url: '/assets/blog/ethernaut/fallback.svg'
+  url: '/assets/blog/ethernaut/elevator.svg'
   credit:
     name: OpenZeppelin
     url: https://ethernaut.openzeppelin.com/

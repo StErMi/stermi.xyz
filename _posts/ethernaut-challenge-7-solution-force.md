@@ -2,7 +2,7 @@
 title: 'Ethernaut Challenge #7 Solution — Force'
 excerpt: This is Part 7 of the "Let’s play OpenZeppelin Ethernaut CTF" series, where I will explain how to solve each challenge.</br></br>Our only goal is to **find a way to send ETH** to the `Force` contract.
 coverImage:
-  url: '/assets/blog/ethernaut/fallback.svg'
+  url: '/assets/blog/ethernaut/force.svg'
   credit:
     name: OpenZeppelin
     url: https://ethernaut.openzeppelin.com/

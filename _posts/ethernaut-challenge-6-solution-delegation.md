@@ -2,7 +2,7 @@
 title: 'Ethernaut Challenge #6 Solution — Delegation'
 excerpt: This is Part 6 of the "Let’s play OpenZeppelin Ethernaut CTF" series, where I will explain how to solve each challenge.</br></br>In this challenge, we don't need any token/ETH to solve it. Our only goal is to **claim ownership** of the `Delegation` contract.
 coverImage:
-  url: '/assets/blog/ethernaut/fallback.svg'
+  url: '/assets/blog/ethernaut/delegation.svg'
   credit:
     name: OpenZeppelin
     url: https://ethernaut.openzeppelin.com/

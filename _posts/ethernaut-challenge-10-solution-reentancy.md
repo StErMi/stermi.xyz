@@ -2,7 +2,7 @@
 title: 'Ethernaut Challenge #10 Solution — Re-entrancy'
 excerpt: This is Part 10 of the "Let’s play OpenZeppelin Ethernaut CTF" series, where I will explain how to solve each challenge.</br></br>To solve this challenge, we must **steal all the funds** from the contract.
 coverImage:
-  url: '/assets/blog/ethernaut/fallback.svg'
+  url: '/assets/blog/ethernaut/reentrancy.svg'
   credit:
     name: OpenZeppelin
     url: https://ethernaut.openzeppelin.com/

@@ -2,7 +2,7 @@
 title: 'Ethernaut Challenge #8 Solution — Vault'
 excerpt: This is Part 8 of the "Let’s play OpenZeppelin Ethernaut CTF" series, where I will explain how to solve each challenge.</br></br>The goal for this challenge is to be able to guess the `Vault` secret password and unlock it.
 coverImage:
-  url: '/assets/blog/ethernaut/fallback.svg'
+  url: '/assets/blog/ethernaut/vault.svg'
   credit:
     name: OpenZeppelin
     url: https://ethernaut.openzeppelin.com/

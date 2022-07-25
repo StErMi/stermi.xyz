@@ -5,7 +5,7 @@ excerpt: 'This is Part 5 of the "Let’s play OpenZeppelin Ethernaut CTF" seri
 For this challenge, our end goal is to be able to claim the ownership of the contract.
 '
 coverImage: 
-  url: '/assets/blog/ethernaut/fallback.svg'
+  url: '/assets/blog/ethernaut/token.svg'
   credit: 
     name: OpenZeppelin
     url: https://ethernaut.openzeppelin.com/
