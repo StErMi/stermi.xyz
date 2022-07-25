@@ -1,7 +1,11 @@
 ---
 title: 'EthernautDAO CTF — Car Market Solution'
 excerpt: ΞthernautDAO is common goods DAO aimed at transforming developers into Ethereum developers. </br></br>The goal for this challenge is to be able to **mint and owns** two different cars. This mean that we need to find a way to gather `100_000 Token` to purchase the second car.
-coverImage: '/assets/blog/ethernautdao.jpeg'
+coverImage:
+  url: '/assets/blog/ethernautdao.jpeg'
+  credit:
+    name: ΞthernautDAO
+    url: https://twitter.com/EthernautDAO
 date: '2020-07-20T07:00:00.000Z'
 author:
   name: Emanuele Ricci

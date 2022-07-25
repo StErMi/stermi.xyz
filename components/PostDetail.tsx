@@ -39,7 +39,7 @@ const PostDeail = ({ post }: Props) => (
                 </p>
                 <div className="flex space-x-1 text-sm text-gray-500">
                   <a
-                    className=""
+                    target="_blank"
                     href={`https://twitter.com/${post.author.twitter}`}
                   >
                     @{post.author.twitter}
@@ -50,15 +50,23 @@ const PostDeail = ({ post }: Props) => (
           </span>
         </h1>
       </div>
-      <div className="flex items-center justify-center rounded-lg">
-        <img
-          src={post.coverImage}
+
+      <div className="flex flex-col items-center justify-center overflow-hidden rounded-lg">
+        <Image
+          src={post.coverImage.url}
           alt={`Cover Image for ${post.title}`}
           className={clsx('max-w-5xl rounded-lg shadow-sm', {
             'object-cover transition-shadow duration-200 hover:shadow-lg':
               post.slug,
           })}
         />
+        {post.coverImage.credit && (
+          <div className="pt-1 text-sm text-gray-400">
+            <a className="" href={post.coverImage.credit.url} target="_blank">
+              {post.coverImage.credit.name}
+            </a>
+          </div>
+        )}
       </div>
       <div
         className="prose prose-lg prose-indigo mx-auto mt-6 text-gray-500"

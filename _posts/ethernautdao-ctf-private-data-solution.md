@@ -1,7 +1,11 @@
 ---
 title: 'EthernautDAO CTF — Private Data Solution'
 excerpt: ΞthernautDAO is common goods DAO aimed at transforming developers into Ethereum developers. </br></br>Our goal for this challenge is to be able to take the ownership of the contract by calling the function `takeOwnership`  and then withdraw all the contract's funds by calling the `withdraw` function that can be called only by the owner of the contract.
-coverImage: '/assets/blog/ethernautdao.jpeg'
+coverImage:
+  url: '/assets/blog/ethernautdao.jpeg'
+  credit:
+    name: ΞthernautDAO
+    url: https://twitter.com/EthernautDAO
 date: '2020-07-11T07:00:00.000Z'
 author:
   name: Emanuele Ricci

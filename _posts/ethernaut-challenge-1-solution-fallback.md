@@ -4,7 +4,11 @@ excerpt: 'This is Part 1 of the "Let’s play OpenZeppelin Ethernaut CTF" seri
 
 The goal of this challenge is to claim ownership of the `Fallback` contract and reduce its balance to 0.
 '
-coverImage: '/assets/blog/ethernaut/fallback.svg'
+coverImage: 
+  url: '/assets/blog/ethernaut/fallback.svg'
+  credit: 
+    name: OpenZeppelin
+    url: https://ethernaut.openzeppelin.com/
 date: '2020-06-30T07:00:00.000Z'
 author:
   name: Emanuele Ricci

@@ -4,7 +4,11 @@ excerpt: 'This is Part 2 of the "Let’s play OpenZeppelin Ethernaut CTF" seri
 
 For this challenge, our end goal is to be able to consecutively guess the coin flip result by calling the `flip()` function passing the correct guess.
 '
-coverImage: '/assets/blog/ethernaut/coinflip.svg'
+coverImage: 
+  url: '/assets/blog/ethernaut/fallback.svg'
+  credit: 
+    name: OpenZeppelin
+    url: https://ethernaut.openzeppelin.com/
 date: '2020-07-01T07:00:00.000Z'
 author:
   name: Emanuele Ricci

@@ -4,7 +4,11 @@ excerpt: 'This is Part 4 of the "Let’s play OpenZeppelin Ethernaut CTF" seri
 
 For this challenge, our end goal is to be able to claim the ownership of the contract.
 '
-coverImage: '/assets/blog/ethernaut/telephone.svg'
+coverImage: 
+  url: '/assets/blog/ethernaut/fallback.svg'
+  credit: 
+    name: OpenZeppelin
+    url: https://ethernaut.openzeppelin.com/
 date: '2020-07-05T07:00:00.000Z'
 author:
   name: Emanuele Ricci

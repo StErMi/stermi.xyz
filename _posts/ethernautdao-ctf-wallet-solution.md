@@ -1,7 +1,11 @@
 ---
 title: 'EthernautDAO CTF — Wallet Solution'
 excerpt: ΞthernautDAO is common goods DAO aimed at transforming developers into Ethereum developers. </br></br>Our goal is to be able to add **ourselves** to the list of the owners and execute a transaction.
-coverImage: '/assets/blog/ethernautdao.jpeg'
+coverImage:
+  url: '/assets/blog/ethernautdao.jpeg'
+  credit:
+    name: ΞthernautDAO
+    url: https://twitter.com/EthernautDAO
 date: '2020-07-13T07:00:00.000Z'
 author:
   name: Emanuele Ricci

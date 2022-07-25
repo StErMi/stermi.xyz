@@ -4,7 +4,11 @@ excerpt: 'The Ethernaut is a Web3/Solidity based war game created by OpenZeppeli
 
 Each level is a smart contract that needs to be ‘hacked’. The game acts both as a tool for those interested in learning Ethereum, and as a way to catalog historical hacks in levels. Levels can be infinite, and the game does not require to be played in any particular order.
 '
-coverImage: '/assets/blog/ethernaut/oz_logo_color.png'
+coverImage: 
+  url: '/assets/blog/ethernaut/oz_logo_color.png'
+  credit: 
+    name: OpenZeppelin
+    url: https://ethernaut.openzeppelin.com/
 date: '2020-06-29T07:00:00.000Z'
 author:
   name: Emanuele Ricci

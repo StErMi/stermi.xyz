@@ -1,7 +1,11 @@
 ---
 title: 'Ethernaut Challenge #13 Solution — Gatekeeper One'
 excerpt: This is Part 12 of the "Let’s play OpenZeppelin Ethernaut CTF" series, where I will explain how to solve each challenge.</br></br>To solve this challenge we need to open three diffent "gates", each one with a different requirement. Bear with me because they are pretty tough.
-coverImage: '/assets/blog/ethernaut/gatekeeper-one.svg'
+coverImage:
+  url: '/assets/blog/ethernaut/fallback.svg'
+  credit:
+    name: OpenZeppelin
+    url: https://ethernaut.openzeppelin.com/
 date: '2020-07-25T07:00:00.000Z'
 author:
   name: Emanuele Ricci

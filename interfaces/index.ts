@@ -14,7 +14,13 @@ export type Post = {
   slug: string
   title: string
   date: string
-  coverImage: string
+  coverImage: {
+    url: string
+    credit?: {
+      name: string
+      url: string
+    }
+  }
   author: Author
   excerpt: string
   ogImage: {

@@ -37,7 +37,7 @@ const Posts = ({ posts }: Props) => (
             <div className="flex-shrink-0">
               <Image
                 className="h-48 w-full object-cover"
-                src={post.coverImage}
+                src={post.coverImage.url}
                 alt=""
               />
             </div>
