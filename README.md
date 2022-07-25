@@ -10,4 +10,5 @@ Just for fun!
 - [ ] Add keywords?
 - [ ] Add better SEO
 - [ ] Add privacy friendly analytics
+- [ ] Better configure code highlighter
 - [ ] ???
