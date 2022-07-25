@@ -8,6 +8,11 @@ export default class MyDocument extends Document {
         lang="en"
       >
         <Head>
+          <script
+            defer
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon='{"token": "e7b18444ce8e4af6befbd42509cec5a0"}'
+          ></script>
           <link
             rel="apple-touch-icon"
             sizes="180x180"
