@@ -28,4 +28,17 @@ Otherwise, you could clone my own [personal repository](https://github.com/StEr
 
 Each day I will publish the solution to a new challenge, so stay tuned.
 
+- [The Ethernaut Challenge #1 Solution — Fallback](https://stermi.xyz/blog/ethernaut-challenge-1-solution-fallback)
+- [The Ethernaut Challenge #2 Solution — Fallout](https://stermi.xyz/blog/ethernaut-challenge-2-solution-fallout)
+- [The Ethernaut Challenge #3 Solution — Coin Flip](https://stermi.xyz/blog/ethernaut-challenge-3-solution-coin-flip)
+- [The Ethernaut Challenge #4 Solution — Telephone](https://stermi.xyz/blog/ethernaut-challenge-4-solution-telephone)
+- [The Ethernaut Challenge #5 Solution — Token](https://stermi.xyz/blog/ethernaut-challenge-5-solution-token)
+- [The Ethernaut Challenge #6 Solution — Delegation](https://stermi.xyz/blog/ethernaut-challenge-6-solution-delegation)
+- [The Ethernaut Challenge #7 Solution — Force](https://stermi.xyz/blog/ethernaut-challenge-7-solution-force)
+- [The Ethernaut Challenge #8 Solution — Vault](https://stermi.xyz/blog/ethernaut-challenge-8-solution-vault)
+- [The Ethernaut Challenge #9 Solution — King](https://stermi.xyz/blog/ethernaut-challenge-9-solution-king)
+- [The Ethernaut Challenge #10 Solution — Re-entrancy](https://stermi.xyz/blog/ethernaut-challenge-10-solution-reentrancy)
+- [The Ethernaut Challenge #11 Solution — Elevator](https://stermi.xyz/blog/ethernaut-challenge-11-solution-elevator)
+- [The Ethernaut Challenge #12 Solution — Privacy](https://stermi.xyz/blog/ethernaut-challenge-12-solution-privacy)
+- [The Ethernaut Challenge #13 Solution — Gatekeeper One](https://stermi.xyz/blog/ethernaut-challenge-13-solution-gatekeeper-one)
 - More to come…
