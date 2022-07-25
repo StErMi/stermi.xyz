@@ -9,6 +9,7 @@ Just for fun!
 - [ ] Add About me section
 - [ ] Add keywords?
 - [ ] Add better SEO
-- [ ] Add privacy friendly analytics
+- [ ] Add support to RSS
+- [x] Add privacy friendly analytics
 - [ ] Better configure code highlighter
 - [ ] ???
