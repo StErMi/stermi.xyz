@@ -5,7 +5,7 @@ excerpt: 'This is Part 1 of the "Let’s play OpenZeppelin Ethernaut CTF" seri
 The goal of this challenge is to claim ownership of the `Fallback` contract and reduce its balance to 0.
 '
 coverImage: '/assets/blog/ethernaut/fallback.svg'
-date: '2020-03-16T05:35:07.322Z'
+date: '2020-06-30T07:00:00.000Z'
 author:
   name: Emanuele Ricci
   twitter: StErMi
@@ -14,12 +14,27 @@ ogImage:
   url: '/assets/blog/ethernaut/fallback.svg'
 ---
 
-This is Part 1 of the ["Let’s play OpenZeppelin Ethernaut CTF"](https://stermi.xyz/blog/lets-play-openzeppelin-ethernaut) series, where I will explain how to solve each challenge.
+This is Part 1 of the ["Let's play OpenZeppelin Ethernaut CTF"](https://stermi.xyz/blog/lets-play-openzeppelin-ethernaut) series, where I will explain how to solve each challenge.
 
 > [The Ethernaut](https://ethernaut.openzeppelin.com/) is a Web3/Solidity based wargame created by [OpenZeppelin](https://openzeppelin.com/).
 > Each level is a smart contract that needs to be 'hacked'. The game acts both as a tool for those interested in learning ethereum, and as a way to catalogue historical hacks in levels. Levels can be infinite and the game does not require to be played in any particular order.
 
 # Challenge #1: Fallback
+
+> Look carefully at the contract's code below.
+>
+> You will beat this level if
+>
+> 1.  you claim ownership of the contract
+> 2.  you reduce its balance to 0
+>     Things that might help
+>
+> - How to send ether when interacting with an ABI
+> - How to send ether outside of the ABI
+> - Converting to and from wei/ether units (see help() command)
+> - Fallback methods
+>
+> Level author(s): [Alejandro Santander](https://github.com/ajsantander)
 
 The goal of this challenge is to claim ownership of the `Fallback` contract and reduce its balance to 0.
 
