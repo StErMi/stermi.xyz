@@ -32,7 +32,7 @@ This is Part 14 of the ["Let’s play OpenZeppelin Ethernaut CTF"](https://ster
 >
 > Level author(s): [0age](https://github.com/0age)
 
-Similar to [[13 Gatekeeper One]] to solve this challenge we need to open three different "gates", each one with a different requirement. Bear with me because they are pretty tough.
+Similar to [Gatekeeper One](https://stermi.xyz/blog/ethernaut-challenge-13-solution-gatekeeper-one) to solve this challenge we need to open three different "gates", each one with a different requirement. Bear with me because they are pretty tough.
 
 ## Study the contracts
 
