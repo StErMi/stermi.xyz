@@ -9,6 +9,7 @@ const Footer = () => (
       <div className="flex flex-col items-center border-t border-slate-400/10 py-10 sm:flex-row-reverse sm:justify-between">
         <div className="flex gap-x-6">
           <Link
+            target="_blank"
             href="https://twitter.com/StErMi"
             className="group"
             aria-label="StErMi on Twitter"
@@ -21,6 +22,7 @@ const Footer = () => (
             </svg>
           </Link>
           <Link
+            target="_blank"
             href="https://github.com/StErMi"
             className="group"
             aria-label="StErMi on GitHub"
@@ -33,6 +35,7 @@ const Footer = () => (
             </svg>
           </Link>
           <Link
+            target="_blank"
             href="https://stermi.xyz/feed.xml"
             className="group"
             aria-label="Feed RSS"

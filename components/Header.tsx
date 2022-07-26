@@ -106,6 +106,7 @@ const Header = () => (
         </div>
         <div className="flex items-center gap-x-5 md:gap-x-8">
           <Link
+            target="_blank"
             href="https://twitter.com/StErMi"
             className="group"
             aria-label="StErMi on Twitter"
@@ -118,6 +119,7 @@ const Header = () => (
             </svg>
           </Link>
           <Link
+            target="_blank"
             href="https://github.com/StErMi"
             className="group"
             aria-label="StErMi on GitHub"
@@ -130,6 +132,7 @@ const Header = () => (
             </svg>
           </Link>
           <Link
+            target="_blank"
             href="https://stermi.xyz/feed.xml"
             className="group"
             aria-label="Feed RSS"
