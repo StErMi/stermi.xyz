@@ -8,8 +8,9 @@ Just for fun!
 - [ ] Add better Post detail layout
 - [ ] Add About me section
 - [ ] Add keywords?
-- [ ] Add better SEO
-- [ ] Add support to RSS
+- [x] Add better SEO
+- [x] Add support to RSS
+- [x] Add support to Sitemap
 - [x] Add privacy friendly analytics
 - [ ] Better configure code highlighter
 - [ ] ???
