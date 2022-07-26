@@ -18,7 +18,7 @@ const IndexPage = ({ post }: Props) => (
       <meta name="description" content={post.excerpt} />
 
       {/* Twitter */}
-      <meta name="twitter:card" content="summary" key="twcard" />
+      <meta name="twitter:card" content="summary_large_image" key="twcard" />
       <meta name="twitter:creator" content="@StErMi" key="twhandle" />
 
       {/* Open Graph */}
