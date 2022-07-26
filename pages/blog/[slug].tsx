@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 import PostDeail from '../../components/PostDetail'
@@ -11,34 +12,54 @@ type Props = {
   post: Post
 }
 
-const IndexPage = ({ post }: Props) => (
-  <>
-    <Head>
-      <title>{post.title} StErMi.xyz Blog</title>
-      <meta name="description" content={post.excerpt} />
+const IndexPage = ({ post }: Props) => {
+  const router = useRouter()
+  const meta = {
+    title: 'StErMi – Developer, writer, creator.',
+    excerpt: `Full-stack developer, creator and Web3 enthusiast.`,
+    image: 'https://stermi.xyz/assets/stermi.jpeg',
+    type: 'website',
+    ...post,
+  }
+  return (
+    <>
+      <Head>
+        <title>{meta.title}</title>
 
-      {/* Twitter */}
-      <meta name="twitter:card" content="summary_large_image" key="twcard" />
-      <meta name="twitter:creator" content="@StErMi" key="twhandle" />
-
-      {/* Open Graph */}
-      <meta
-        property="og:url"
-        content={`https://stermi.xyz/blog/${post.slug}`}
-        key="ogurl"
-      />
-      <meta property="og:image" content={post.coverImage.url} key="ogimage" />
-      <meta property="og:site_name" content="StErMi.xyz" key="ogsitename" />
-      <meta property="og:title" content={post.title} key="ogtitle" />
-      <meta property="og:description" content={post.excerpt} key="ogdesc" />
-    </Head>
-    <Header />
-    <main>
-      <PostDeail post={post} />
-    </main>
-    <Footer />
-  </>
-)
+        <meta name="robots" content="follow, index" />
+        <meta content={meta.excerpt} name="description" />
+        <meta
+          property="og:url"
+          content={`https://stermi.xyz${router.asPath}`}
+        />
+        <link rel="canonical" href={`https://stermi.xyz${router.asPath}`} />
+        <meta property="og:site_name" content="StErMi" />
+        <meta property="og:description" content={meta.excerpt} />
+        <meta property="og:title" content={meta.title} />
+        <meta
+          property="og:image"
+          content={`https://stermi.xyz${meta.coverImage.url}`}
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@stermi" />
+        <meta name="twitter:title" content={meta.title} />
+        <meta name="twitter:description" content={meta.excerpt} />
+        <meta
+          name="twitter:image"
+          content={`https://stermi.xyz${meta.coverImage.url}`}
+        />
+        {meta.date && (
+          <meta property="article:published_time" content={meta.date} />
+        )}
+      </Head>
+      <Header />
+      <main>
+        <PostDeail post={post} />
+      </main>
+      <Footer />
+    </>
+  )
+}
 
 export default IndexPage
 
