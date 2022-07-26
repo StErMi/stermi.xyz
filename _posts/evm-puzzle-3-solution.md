@@ -6,7 +6,7 @@ coverImage:
   credit:
     name: Ryoji Iwata Unsplash
     url: https://unsplash.com/@ryoji__iwata
-date: '2020-06-14T07:00:00.000Z'
+date: '2022-06-14T07:00:00.000Z'
 author:
   name: Emanuele Ricci
   twitter: StErMi

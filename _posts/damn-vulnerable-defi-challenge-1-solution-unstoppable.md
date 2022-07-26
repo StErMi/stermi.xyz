@@ -7,7 +7,7 @@ coverImage:
   credit: 
     name: Nenad Novaković
     url: https://unsplash.com/@dvlden
-date: '2020-04-02T07:00:00.000Z'
+date: '2022-04-02T07:00:00.000Z'
 author:
   name: Emanuele Ricci
   twitter: StErMi

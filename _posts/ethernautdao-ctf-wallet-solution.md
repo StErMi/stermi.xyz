@@ -6,7 +6,7 @@ coverImage:
   credit:
     name: ΞthernautDAO
     url: https://twitter.com/EthernautDAO
-date: '2020-07-13T07:00:00.000Z'
+date: '2022-07-13T07:00:00.000Z'
 author:
   name: Emanuele Ricci
   twitter: StErMi

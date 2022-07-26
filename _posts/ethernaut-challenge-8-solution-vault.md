@@ -6,7 +6,7 @@ coverImage:
   credit:
     name: OpenZeppelin
     url: https://ethernaut.openzeppelin.com/
-date: '2020-07-14T07:00:00.000Z'
+date: '2022-07-14T07:00:00.000Z'
 author:
   name: Emanuele Ricci
   twitter: StErMi
