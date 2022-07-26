@@ -45,4 +45,5 @@ Each day I will publish the solution to a new challenge, so stay tuned.
 - [The Ethernaut Challenge #11 Solution — Elevator](https://stermi.xyz/blog/ethernaut-challenge-11-solution-elevator)
 - [The Ethernaut Challenge #12 Solution — Privacy](https://stermi.xyz/blog/ethernaut-challenge-12-solution-privacy)
 - [The Ethernaut Challenge #13 Solution — Gatekeeper One](https://stermi.xyz/blog/ethernaut-challenge-13-solution-gatekeeper-one)
+- [The Ethernaut Challenge #13 Solution — Gatekeeper Two](https://stermi.xyz/blog/ethernaut-challenge-14-solution-gatekeeper-two)
 - More to come…
