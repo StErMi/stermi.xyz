@@ -19,7 +19,7 @@ ogImage:
 
 They started releasing CTF challenges on Twitter, so how couldn't I start solving them?
 
-https://twitter.com/EthernautDAO/status/1551211568926425089
+[https://twitter.com/EthernautDAO/status/1551211568926425089](https://twitter.com/EthernautDAO/status/1551211568926425089)
 
 ## CTF 4: Vending Machine
 
