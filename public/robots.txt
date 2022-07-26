@@ -1,5 +1,2 @@
-//robots.txt
-
-# Allow all crawlers
 User-agent: *
-Allow: /
+Sitemap: https://stermi.xyz/sitemap.xml

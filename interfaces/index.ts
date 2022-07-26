@@ -27,4 +27,5 @@ export type Post = {
     url: string
   }
   content: string
+  readingTime: string
 }
