@@ -31,7 +31,7 @@ This is Part 15 of the ["Let’s play OpenZeppelin Ethernaut CTF"](https://ster
 >
 > Level author(s): [Kyle Riley](https://github.com/syncikin)
 
-We have tons of `NaughtCoin` tokens in our balance but we cannot withdraw them for **10 years**. The goal of this challenge is to find a way to withdraw them skipping the lock period.
+We have tons of `NaughtCoin` tokens in our balance, but we cannot withdraw them for **10 years**. The goal of this challenge is to find a way to withdraw them skipping the lock period.
 
 ## Study the contracts
 
@@ -80,7 +80,7 @@ The contract is pretty simple. In the `constructor` the Contract mint to the `pl
 
 > **Note:** there's a double event emission in the `constructor`. After the `_mint` execution the contract `emit` a `Transfer` event without knowing that the native implementation of the OpenZeppelin `_mint` function already `emit` a `Transfer` event.
 
-The contract is overriding the `transfer` function by adding the `lockTokens` function modifier to the `ERC20` implementation. Let's see what this modifier do:
+The contract is overriding the `transfer` function by adding the `lockTokens` function modifier to the `ERC20` implementation. Let's see what this modifier does:
 
 ```solidity
 // Prevent the initial owner from transferring tokens until the timelock has passed
@@ -94,33 +94,33 @@ modifier lockTokens() {
 }
 ```
 
-The modifier check if the `msg.sender` is the `player` and if that's the case it check if at least `10 years` have passed since the minting time.
+The modifier check if the `msg.sender` is the `player` and if that's the case it checks if at least `10 years` have passed since the minting time.
 
 **Are our precious tokens stuck for 10 years?**
 
-To solve this contract we need to know how the EIP (Ethereum Improvement Proposal) for the ERC20 token works and how OpenZeppelin has implemented it (the contract is using the OpenZeppelin framework library).
+To solve this contract, we need to know how the EIP (Ethereum Improvement Proposal) for the ERC20 token works and how OpenZeppelin has implemented it (the contract is using the OpenZeppelin framework library).
 
-You can find all the informations needed from these links:
+You can find all the information needed from these links:
 
 - [Ethereum EIP-20](https://eips.ethereum.org/EIPS/eip-20)
 - [OpenZeppelin ERC20 Docs](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20)
 - [OpenZeppelin ERC20 Implementation](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)
 
-There are two way to transfer tokens:
+There are two-way to transfer tokens:
 
 - via the `transfer` function that allow the `msg.sender` to directly transfer tokens to a `recipient`
-- via the `transferFrom` that allows an external arbitrary `sender` (that could be the owner of the tokens itself) to transfer on behalf of the owner an `amount` of tokens to a `recipient`. Before sending those tokens the owner must have **approved** the `sender` to manage that amount of tokens
+- via the `transferFrom` that allows an external arbitrary `sender` (that could be the owner of the tokens itself) to transfer on behalf of the owner an `amount` of tokens to a `recipient`. Before sending those tokens, the owner must have **approved** the `sender` to manage that number of tokens
 
-Because the `transfer` method has been `overrided` by the `NaughtCoin` contract we can circumvent the restriction by using the `transferFrom` function.
+Because the `transfer` method has been `overrided` by the `NaughtCoin` contract, we can circumvent the restriction by using the `transferFrom` function.
 
 Here's what we need to do:
 
 1. Create a secondary account to transfer all our tokens to
-2. Approve ourself to manage the whole amount of tokens before calling `transferFrom`
+2. Approve ourselves to manage the whole amount of tokens before calling `transferFrom`
 3. Call `transferFrom(player, secondaryAccount, token.balanceOf(player))`
 4. Use the tokens however we want!
 
-What should the `NaughtCoin` countract have implemented to really lock our token for **10 years**? Instead of `overriding` the `transfer` function they could have implemented an **hook** that the EIP-20 define called `_beforeTokenTransfer`.
+What should the `NaughtCoin` contract have implemented to really lock our token for **10 years**? Instead of `overriding` the `transfer` function, they could have implemented a **hook** that the EIP-20 define, called `_beforeTokenTransfer`.
 
 This hook is called when any kind of token transfer happen:
 
@@ -129,11 +129,11 @@ This hook is called when any kind of token transfer happen:
 - `transfer`
 - `transferFrom`
 
-By doing so they would have prevented this exploit.
+By doing so, they would have prevented this exploit.
 
 ## Solution code
 
-The solution is really easy to implement:
+The solution is straightforward to implement:
 
 ```solidity
 function exploitLevel() internal override {
