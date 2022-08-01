@@ -56,6 +56,7 @@ const PostDeail = ({ post }: Props) => (
 
       <div className="flex flex-col items-center justify-center overflow-hidden rounded-lg">
         <Image
+          priority
           src={post.coverImage.url}
           alt={`Cover Image for ${post.title}`}
           className={clsx('max-w-5xl rounded-lg shadow-sm', {
