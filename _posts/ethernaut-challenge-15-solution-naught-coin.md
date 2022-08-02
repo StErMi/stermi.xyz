@@ -1,6 +1,6 @@
 ---
 title: 'Ethernaut Challenge #15 Solution — Naught Coin'
-excerpt: This is Part 14 of the "Let’s play OpenZeppelin Ethernaut CTF" series, where I will explain how to solve each challenge.</br></br>We have tons of `NaughtCoin` tokens in our balance but we cannot withdraw them for **10 years**. The goal of this challenge is to find a way to withdraw them skipping the lock period.
+excerpt: This is Part 15 of the "Let’s play OpenZeppelin Ethernaut CTF" series, where I will explain how to solve each challenge.</br></br>We have tons of `NaughtCoin` tokens in our balance but we cannot withdraw them for **10 years**. The goal of this challenge is to find a way to withdraw them skipping the lock period.
 coverImage:
   url: '/assets/blog/ethernaut/naught-coin.svg'
   credit:
