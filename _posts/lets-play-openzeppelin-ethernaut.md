@@ -49,4 +49,5 @@ Each day I will publish the solution to a new challenge, so stay tuned.
 - [The Ethernaut Challenge #15 Solution — Naught Coin](https://stermi.xyz/blog/ethernaut-challenge-15-solution-naught-coin)
 - [The Ethernaut Challenge #16 Solution — Preservation](https://stermi.xyz/blog/ethernaut-challenge-16-solution-preservation)
 - [The Ethernaut Challenge #17 Solution — Recovery](https://stermi.xyz/blog/ethernaut-challenge-17-solution-recovery)
+- [The Ethernaut Challenge #18 Solution — Magic Number](https://stermi.xyz/blog/ethernaut-challenge-18-solution-magic-number)
 - More to come…
