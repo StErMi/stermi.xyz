@@ -1,5 +1,5 @@
 ---
-title: 'EthernautDAO CTF — Hackable Contract Solution'
+title: 'EthernautDAO CTF 6 — Hackable Contract Solution'
 excerpt: ΞthernautDAO is common goods DAO aimed at transforming developers into Ethereum developers. </br></br>Our goal is to be able to solve the challenge, become the `winner` and flip the value of `done` from `false` to `true`.
 coverImage:
   url: '/assets/blog/ethernautdao.jpeg'
@@ -21,7 +21,7 @@ They started releasing CTF challenges on Twitter, so how couldn't I start solvin
 
 [https://twitter.com/EthernautDAO/status/1556278995909427202](https://twitter.com/EthernautDAO/status/1556278995909427202)
 
-## CTF 5: Hackable
+## CTF 6: Hackable
 
 For this challenge, we have to deal only with a single Smart Contract called [hackable](https://goerli.etherscan.io/address/0x445d0fa7fa12a85b30525568dfd09c3002f2ade5#code), a simple smart contract.
 

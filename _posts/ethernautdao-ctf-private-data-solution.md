@@ -1,5 +1,5 @@
 ---
-title: 'EthernautDAO CTF — Private Data Solution'
+title: 'EthernautDAO CTF 1 — Private Data Solution'
 excerpt: ΞthernautDAO is common goods DAO aimed at transforming developers into Ethereum developers. </br></br>Our goal for this challenge is to be able to take the ownership of the contract by calling the function `takeOwnership`  and then withdraw all the contract's funds by calling the `withdraw` function that can be called only by the owner of the contract.
 coverImage:
   url: '/assets/blog/ethernautdao.jpeg'
@@ -21,7 +21,7 @@ They started releasing CTF challenges on Twitter, so how couldn't I start solvin
 
 [https://twitter.com/EthernautDAO/status/1543957806532833282](https://twitter.com/EthernautDAO/status/1543957806532833282)
 
-# CTF 1: Private Data
+## CTF 1: Private Data
 
 The contract [0x620e0c88e0f8f36bcc06736138bded99b6401192](https://goerli.etherscan.io/address/0x620e0c88e0f8f36bcc06736138bded99b6401192) has been deployed on the Goerli network.
 

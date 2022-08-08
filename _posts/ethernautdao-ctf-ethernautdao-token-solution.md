@@ -1,5 +1,5 @@
 ---
-title: 'EthernautDAO CTF — EthernautDAOToken Solution'
+title: 'EthernautDAO CTF 5 — EthernautDAOToken Solution'
 excerpt: ΞthernautDAO is common goods DAO aimed at transforming developers into Ethereum developers. </br></br>Our goal is to be able to drain a wallet balance.
 coverImage:
   url: '/assets/blog/ethernautdao.jpeg'

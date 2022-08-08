@@ -1,5 +1,5 @@
 ---
-title: 'EthernautDAO CTF — Car Market Solution'
+title: 'EthernautDAO CTF 3 — Car Market Solution'
 excerpt: ΞthernautDAO is common goods DAO aimed at transforming developers into Ethereum developers. </br></br>The goal for this challenge is to be able to **mint and owns** two different cars. This mean that we need to find a way to gather `100_000 Token` to purchase the second car.
 coverImage:
   url: '/assets/blog/ethernautdao.jpeg'
@@ -21,7 +21,7 @@ They started releasing CTF challenges on Twitter, so how couldn't I start solvin
 
 [https://twitter.com/EthernautDAO/status/1548995357194874885](https://twitter.com/EthernautDAO/status/1548995357194874885)
 
-# CTF 3: Car Market
+## CTF 3: Car Market
 
 For this challenge, we have three different smart contracts to review:
 

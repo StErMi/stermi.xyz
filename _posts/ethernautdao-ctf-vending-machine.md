@@ -1,5 +1,5 @@
 ---
-title: 'EthernautDAO CTF — Vending Machine Solution'
+title: 'EthernautDAO CTF 4 — Vending Machine Solution'
 excerpt: ΞthernautDAO is common goods DAO aimed at transforming developers into Ethereum developers. </br></br>The goal is to drain all the balance from the contract.
 coverImage:
   url: '/assets/blog/ethernautdao.jpeg'

@@ -1,5 +1,5 @@
 ---
-title: 'EthernautDAO CTF — Wallet Solution'
+title: 'EthernautDAO CTF 2 — Wallet Solution'
 excerpt: ΞthernautDAO is common goods DAO aimed at transforming developers into Ethereum developers. </br></br>Our goal is to be able to add **ourselves** to the list of the owners and execute a transaction.
 coverImage:
   url: '/assets/blog/ethernautdao.jpeg'
@@ -21,7 +21,7 @@ They started releasing CTF challenges on Twitter, so how couldn't I start solvin
 
 [https://twitter.com/EthernautDAO/status/1546101932040790016](https://twitter.com/EthernautDAO/status/1546101932040790016)
 
-# CTF 2: Wallet Library
+## CTF 2: Wallet Library
 
 For this challenge, we have two different smart contracts to review:
 
