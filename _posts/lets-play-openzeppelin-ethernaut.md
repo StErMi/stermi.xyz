@@ -50,4 +50,5 @@ Each day I will publish the solution to a new challenge, so stay tuned.
 - [The Ethernaut Challenge #16 Solution — Preservation](https://stermi.xyz/blog/ethernaut-challenge-16-solution-preservation)
 - [The Ethernaut Challenge #17 Solution — Recovery](https://stermi.xyz/blog/ethernaut-challenge-17-solution-recovery)
 - [The Ethernaut Challenge #18 Solution — Magic Number](https://stermi.xyz/blog/ethernaut-challenge-18-solution-magic-number)
+- [The Ethernaut Challenge #19 Solution — Denial](https://stermi.xyz/blog/ethernaut-challenge-19-solution-denial)
 - More to come…
