@@ -54,4 +54,5 @@ Each day I will publish the solution to a new challenge, so stay tuned.
 - [The Ethernaut Challenge #20 Solution — Shop](https://stermi.xyz/blog/ethernaut-challenge-20-solution-shop)
 - [The Ethernaut Challenge #21 Solution — Dex](https://stermi.xyz/blog/ethernaut-challenge-21-solution-dex)
 - [The Ethernaut Challenge #22 Solution — Dex Two](https://stermi.xyz/blog/ethernaut-challenge-22-solution-dex-two)
+- [The Ethernaut Challenge #23 Solution — Puzzle Wallet](https://stermi.xyz/blog/ethernaut-challenge-23-solution-puzzle-wallet)
 - More to come…
