@@ -55,4 +55,5 @@ Each day I will publish the solution to a new challenge, so stay tuned.
 - [The Ethernaut Challenge #21 Solution — Dex](https://stermi.xyz/blog/ethernaut-challenge-21-solution-dex)
 - [The Ethernaut Challenge #22 Solution — Dex Two](https://stermi.xyz/blog/ethernaut-challenge-22-solution-dex-two)
 - [The Ethernaut Challenge #23 Solution — Puzzle Wallet](https://stermi.xyz/blog/ethernaut-challenge-23-solution-puzzle-wallet)
+- [The Ethernaut Challenge #24 Solution — Double Entry Point](https://stermi.xyz/blog/ethernaut-challenge-24-solution-double-entry-point)
 - More to come…
