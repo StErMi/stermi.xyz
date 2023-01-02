@@ -15,7 +15,7 @@ ogImage:
   url: '/assets/blog/ethereum.jpg'
 ---
 
-This is Part 8 of the ["Let’s play Damn Vulnerable DeFi CTF"](https://stermi.xyz/blog/lets-play-damn-vulnerable-defi) series, where I will explain how to solve each challenge.
+This is Part 10 of the ["Let’s play Damn Vulnerable DeFi CTF"](https://stermi.xyz/blog/lets-play-damn-vulnerable-defi) series, where I will explain how to solve each challenge.
 
 > [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/index.html) is the war game created by [@tinchoabbate](https://twitter.com/tinchoabbate) to learn offensive security of DeFi smart contracts.
 > Throughout numerous challenges, you will build the skills to become a bug hunter or security auditor in the space.
