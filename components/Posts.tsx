@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Container from './Container'
-import Image from 'next/future/image'
+import Image from 'next/image'
 import { Post } from '../interfaces'
 import DateFormatter from './DateFormatter'
 import Link from 'next/link'
@@ -35,11 +35,14 @@ const Posts = ({ posts }: Props) => (
             className="flex flex-col overflow-hidden rounded-lg shadow-lg"
           >
             <div className="flex-shrink-0">
-              <Image
-                className="h-48 w-full object-cover"
-                src={post.coverImage.url}
-                alt=""
-              />
+              <div className="relative h-48 w-full">
+                <Image
+                  layout="fill"
+                  objectFit="cover"
+                  src={post.coverImage.url}
+                  alt={post.title}
+                />
+              </div>
             </div>
             <div className="flex flex-1 flex-col justify-between bg-white p-6">
               <div className="flex-1">
@@ -48,19 +51,23 @@ const Posts = ({ posts }: Props) => (
                   href="/blog/[slug]"
                   className="mt-2 block"
                 >
-                  <p className="text-xl font-semibold text-gray-900">
-                    {post.title}
-                  </p>
-                  <p
-                    className="mt-3 text-base text-gray-500"
-                    dangerouslySetInnerHTML={{ __html: post.excerpt }}
-                  ></p>
+                  <div className="cursor-pointer">
+                    <p className="text-xl font-semibold text-gray-900">
+                      {post.title}
+                    </p>
+                    <p
+                      className="mt-3 text-base text-gray-500"
+                      dangerouslySetInnerHTML={{ __html: post.excerpt }}
+                    ></p>
+                  </div>
                 </Link>
               </div>
               <div className="mt-6 flex items-center">
                 <div className="flex-shrink-0">
                   <span className="sr-only">{post.author.name}</span>
                   <Image
+                    width={40}
+                    height={40}
                     className="h-10 w-10 rounded-full"
                     src={post.author.picture}
                     alt={post.author.name}

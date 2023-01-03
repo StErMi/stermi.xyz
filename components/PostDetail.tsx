@@ -2,7 +2,7 @@ import clsx from 'clsx'
 import * as React from 'react'
 import { Post } from '../interfaces'
 import DateFormatter from './DateFormatter'
-import Image from 'next/future/image'
+import Image from 'next/image'
 
 type Props = {
   post: Post
@@ -18,6 +18,8 @@ const PostDeail = ({ post }: Props) => (
             <div className="flex-shrink-0">
               <span className="sr-only">{post.author.name}</span>
               <Image
+                width={40}
+                height={40}
                 className="h-10 w-10 rounded-full"
                 src={post.author.picture}
                 alt={post.author.name}
@@ -55,15 +57,19 @@ const PostDeail = ({ post }: Props) => (
       </div>
 
       <div className="flex flex-col items-center justify-center overflow-hidden rounded-lg">
-        <Image
-          priority
-          src={post.coverImage.url}
-          alt={`Cover Image for ${post.title}`}
-          className={clsx('max-w-5xl rounded-lg shadow-sm', {
-            'object-cover transition-shadow duration-200 hover:shadow-lg':
-              post.slug,
-          })}
-        />
+        <div className="relative h-96 w-full max-w-5xl">
+          <Image
+            priority
+            layout="fill"
+            objectFit="cover"
+            src={post.coverImage.url}
+            alt={`Cover Image for ${post.title}`}
+            className={clsx(
+              'rounded-lg shadow-sm',
+              'transition-shadow duration-200 hover:shadow-lg'
+            )}
+          />
+        </div>
         {post.coverImage.credit && (
           <div className="pt-1 text-sm text-gray-400">
             <a className="" href={post.coverImage.credit.url} target="_blank">
