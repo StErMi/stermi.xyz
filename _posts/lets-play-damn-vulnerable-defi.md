@@ -42,5 +42,6 @@ Each day I will publish the solution to a new challenge, so stay tuned.
 - [Damn Vulnerable DeFi Challenge #8 Solution — Puppet](https://stermi.xyz/blog/damn-vulnerable-defi-challenge-8-solution-puppet)
 - [Damn Vulnerable DeFi Challenge #10 Solution — Free rider](https://stermi.xyz/blog/damn-vulnerable-defi-challenge-10-solution-free-rider)
 - [Damn Vulnerable DeFi Challenge #11 Solution — Backdoor](https://stermi.xyz/blog/damn-vulnerable-defi-challenge-11-solution-backdoor)
+- [Damn Vulnerable DeFi Challenge #12 Solution — Climber](https://stermi.xyz/blog/damn-vulnerable-defi-challenge-12-solution-climber)
 
 - More to come…
