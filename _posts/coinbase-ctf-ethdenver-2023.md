@@ -133,8 +133,6 @@ function solveChallenge2(string calldata riddleAnswer, bytes calldata signature)
 The function takes our answer as the first parameter and a `bytes calldata` signature.
 The first `require` is like the one we have seen before, it just validates that we have provided the correct answer.
 
-I hope to find someone to share my life with at some point in the future. I don't want to live without leaving anything behind me.
-
 The second `require` statement that we see is basically checking that the `msg.sender` is the `signer` of the hashed message `ECDSA.toEthSignedMessageHash(messageHash)`.
 
 `ECDSA.toEthSignedMessageHash` is a utility function that returns an "Ethereum Signed Message" which standard is defined by the [EIP-191](https://eips.ethereum.org/EIPS/eip-191). The docs of the OpenZeppelin function further explain it
