@@ -79,7 +79,7 @@ const PostDeail = ({ post }: Props) => (
         )}
       </div>
       <div
-        className="prose prose-lg prose-indigo mx-auto mt-6 text-gray-500"
+        className="prose prose-base prose-indigo mx-auto mt-6 max-w-5xl text-gray-500"
         dangerouslySetInnerHTML={{ __html: post.content }}
       ></div>
     </div>
