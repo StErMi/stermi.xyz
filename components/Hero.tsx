@@ -51,7 +51,7 @@ const Hero = () => (
       >
         Developer DAO
       </a>{' '}
-      member #459, I have partecipated at{' '}
+      member #459, I have participated at{' '}
       <a
         className="text-indigo-400 underline"
         target="_blank"
